@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flipdown.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="flipdown.min.js"></script>
+</head>
+
+<body>
+    <section class="navbar">
+        <nav>
+            <div class="nav-img">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="navl-list">
+                <ul>
+                    <li>Home</li>
+                    <li>How</li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="main">
+        <div class="images">
+
+        </div>
+        <div class="hero">
+            <div class="images">
+                <div class="i image1">
+                    <img src="./images/11.png" alt="">
+                </div>
+                <div class="i image2">
+                    <img src="./images/6.png" alt="">
+                </div>
+                <div class="i image3">
+                    <img src="./images/1.png" alt="">
+                </div>
+                <div class="i image4">
+                    <img src="./images/10.png" alt="">
+                </div>
+                <div class="i image5">
+                    <img src="./images/2.png" alt="">
+                </div>
+
+            </div>
+            <div class="main-image">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <p>Stuck with your system problems,<br> Our tech buddy will reach you soon</p>
+        </div>
+        <div class="notify-section">
+            <input type="email" placeholder="Enter your Mail">
+            <button>Notify Me!</button>
+        </div>
+    </section>
+    <section class="counter" id="end">
+        <div id="flipdown" class="flipdown"></div>
+    </section>
+    <script>
+        new FlipDown(1717183861, {
+            theme: "dark"
+        }).start().ifEnded(() => {
+            console.log('hey over');
+        });
+    </script>
+</body>
+
+</html>
