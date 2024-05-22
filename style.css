@@ -94,24 +94,28 @@ nav {
     position: absolute;
     top: -80px;
     right: 350px;
+    background: #000;
 }
 
 .image2 {
     position: absolute;
     top: -60px;
     left: 400px;
+    background: yellow;
 }
 
 .image3 {
     position: absolute;
     top: -230px;
     left: -40px;
+    background: green;
 }
 
 .image4 {
     position: absolute;
     bottom: -290px;
     right: 500px;
+    background: orange;
 }
 
 .image5 {
@@ -173,4 +177,33 @@ nav {
 .flipdown {
     width: 40%;
     margin-left: 425px;
+}
+
+.image4 span {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.image1 span {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.image2 span {
+    position: absolute;
+}
+
+.image5 span {
+    position: absolute;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.image3 span {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 250px;
 }
